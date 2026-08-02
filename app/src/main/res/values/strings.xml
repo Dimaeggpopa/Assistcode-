@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartKey AI</string>
+    <string name="ime_name">SmartKey AI Keyboard</string>
+
+    <string name="onboarding_title">Настройка SmartKey AI</string>
+    <string name="onboarding_step1">1. Включите клавиатуру в системных настройках</string>
+    <string name="onboarding_step2">2. Выберите SmartKey AI как активную клавиатуру</string>
+    <string name="onboarding_step3">3. Вставьте свой Anthropic API-ключ, чтобы включить AI-функции</string>
+
+    <string name="btn_enable_keyboard">Открыть настройки клавиатур</string>
+    <string name="btn_switch_keyboard">Выбрать SmartKey AI как клавиатуру</string>
+    <string name="btn_save_key">Сохранить ключ</string>
+
+    <string name="api_key_hint">Anthropic API-ключ (sk-ant-...)</string>
+    <string name="api_key_saved">Ключ сохранён</string>
+    <string name="api_key_missing">Сначала введите API-ключ в настройках приложения</string>
+
+    <string name="ai_action_rewrite">Переписать</string>
+    <string name="ai_action_grammar">Грамматика</string>
+    <string name="ai_action_shorter">Короче</string>
+    <string name="ai_action_friendly">Дружелюбнее</string>
+
+    <string name="ai_thinking">AI думает…</string>
+    <string name="ai_error">Ошибка AI: %1$s</string>
+    <string name="ai_no_text">Нет текста для обработки</string>
+</resources>

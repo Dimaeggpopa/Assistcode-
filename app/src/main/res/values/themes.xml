@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SmartKeyAI" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/brand_primary</item>
+        <item name="colorPrimaryDark">@color/brand_primary_dark</item>
+        <item name="colorAccent">@color/brand_primary</item>
+    </style>
+
+    <!-- Theme used by the IME window itself: no title, no dim, sits above the app -->
+    <style name="Theme.SmartKeyAI.Keyboard" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/keyboard_bg</item>
+    </style>
+</resources>
